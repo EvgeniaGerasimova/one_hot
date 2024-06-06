@@ -11,4 +11,6 @@ for mean in data['whoAmI'].unique():
 
 data = data.drop('whoAmI', axis=1)
 
+print(data)
+
 data.head()
