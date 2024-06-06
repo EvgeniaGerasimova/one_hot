@@ -13,4 +13,4 @@ values = data['whoAmI'].unique()
 for mean in values:
     new_data[mean] = (data['whoAmI'] == mean).astype(int)
 
-print(new_data)
+new_data.head()
